@@ -9,7 +9,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("vponnap/myfirstdemo-java:1")
+        app = docker.build("vponnap/myfirstdemodevops:1")
     }
 
     stage('Test image') {

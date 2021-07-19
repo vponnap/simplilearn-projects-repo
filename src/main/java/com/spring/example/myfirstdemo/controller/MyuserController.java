@@ -9,21 +9,21 @@ import java.util.ArrayList;
 @RestController
 public class MyuserController {
 
-    @GetMapping("/hellodocker")
+    @GetMapping("/hellodevops")
     public String getNames() {
         return ( "Welcome to Dockers and K8S, Jenkins ");
     }
 
-    @GetMapping("/hellokanha")
+    @GetMapping("/hellopgfolks")
     public String getKanha() {
-        return ( "Welcome to Kanha and be safe ");
+        return ( "Welcome to pg folks");
     }
 
-    @GetMapping("/getkanhadetails")
+    @GetMapping("/getteamdetails")
     public List<details> getKanhaDetails() {
         List<details> kanhadetails = new ArrayList<>();
-         details d1 = new details( "THLC" , "School");
-         details d2 = new details( "Kaivalya" , "Apartment");
+         details d1 = new details( "Venkata" , "Devops");
+         details d2 = new details( "Vignesh" , "Devops");
          kanhadetails.add(d1);
          kanhadetails.add(d2);
          return kanhadetails;
