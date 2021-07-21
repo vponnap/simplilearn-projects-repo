@@ -14,9 +14,9 @@ public class MyuserController {
         return ( "Welcome to Dockers and K8S, Jenkins ");
     }
 
-    @GetMapping("/hellopgfolks")
+    @GetMapping("/hellopgdevopsfolks")
     public String getKanha() {
-        return ( "Welcome to pg folks");
+        return ( "Welcome to pg devops folks");
     }
 
     @GetMapping("/getteamdetails")
@@ -24,6 +24,7 @@ public class MyuserController {
         List<details> kanhadetails = new ArrayList<>();
          details d1 = new details( "Venkata" , "Devops");
          details d2 = new details( "Vignesh" , "Devops");
+         details d3 = new details( "Abhijith" , "Devops");
          kanhadetails.add(d1);
          kanhadetails.add(d2);
          return kanhadetails;
