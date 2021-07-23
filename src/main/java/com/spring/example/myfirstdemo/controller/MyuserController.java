@@ -16,7 +16,7 @@ public class MyuserController {
 
     @GetMapping("/hellopgdevopsfolks")
     public String getKanha() {
-        return ( "Welcome to pg devops folks");
+        return ( "Welcome to pg devops folks and team");
     }
 
     @GetMapping("/helloteam")
