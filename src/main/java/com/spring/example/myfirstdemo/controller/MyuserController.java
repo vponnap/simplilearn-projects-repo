@@ -19,6 +19,11 @@ public class MyuserController {
         return ( "Welcome to pg devops folks");
     }
 
+    @GetMapping("/helloteam")
+    public String getTeam() {
+        return ( "Welcome to my team");
+    }
+
     @GetMapping("/getteamdetails")
     public List<details> getKanhaDetails() {
         List<details> kanhadetails = new ArrayList<>();
