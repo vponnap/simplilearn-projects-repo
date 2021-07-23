@@ -1,6 +1,7 @@
 # simplilearn-projects-repo
 * This is simple Spring Boot Java APP
 * It has controller, Dockerfile, Jenkinsfile
+* This Repo is enabled for automatic CICD Workflow.
 
 # Application.properties
 * server.port=9090 
