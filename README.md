@@ -1,6 +1,5 @@
 # simplilearn-projects-repo
-All Simplilearn Projects Repo
-* This is simple spring boot Java APP
+* This is simple Spring Boot Java APP
 * It has controller, Dockerfile, Jenkinsfile
 
 # Application.properties
@@ -10,7 +9,7 @@ All Simplilearn Projects Repo
 * To build the Image for this Spring Boot App 
 * This image customised to run on tomcat port 9090
 
-# jenkinsfile
+# Jenkinsfile
 * To checkout the code.
 * To build the docker image.
 * To push and deploy/run the image
