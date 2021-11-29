@@ -9,23 +9,18 @@ import java.util.ArrayList;
 @RestController
 public class MyuserController {
 
-    @GetMapping("/hellodevops")
+    @GetMapping("/hellodevopscontents")
     public String getNames() {
-        return ( "Welcome to Dockers and K8S, Jenkins ");
+        return ( "Welcome to Dockers and K8S, Jenkins, GIT ");
     }
 
-    @GetMapping("/hellopgdevopsfolks")
-    public String getKanha() {
+    @GetMapping("/hellowelcometeam")
+    public String getGreetings() {
         return ( "Welcome to pg devops folks and team");
     }
 
-    @GetMapping("/helloteam")
-    public String getTeam() {
-        return ( "Welcome to my team");
-    }
-
     @GetMapping("/getteamdetails")
-    public List<details> getKanhaDetails() {
+    public List<details> getTeamDetails() {
         List<details> kanhadetails = new ArrayList<>();
          details d1 = new details( "Venkata" , "Devops");
          details d2 = new details( "Vignesh" , "Devops");
