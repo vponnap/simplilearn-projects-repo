@@ -1,5 +1,5 @@
 node {
-	def application = "myfirstdemodevops"
+	def application = "b-safe-cicd-pipeline"
 	def dockerhubaccountid = "vponnap"
 	stage('Clone repository') {
 		checkout scm
