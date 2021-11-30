@@ -26,7 +26,7 @@ public class MyuserController {
          details d2 = new details( "Vignesh" , "Devops");
          details d3 = new details( "Abhijith" , "Devops");
          details d4 = new details( "Vivek" , "Devops");
-        details d5 = new details( "Radha" , "Devops");
+         details d5 = new details( "Radha" , "Devops");
          kanhadetails.add(d1);
          kanhadetails.add(d2);
          return kanhadetails;
